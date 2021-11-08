@@ -1,4 +1,7 @@
 .ItemList{
     display: flex;
-    overflow-y: scroll;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    touch-action: pan-x;
+    height: auto;
 }
